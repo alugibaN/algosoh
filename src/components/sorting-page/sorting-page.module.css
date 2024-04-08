@@ -1,0 +1,33 @@
+.section{
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+.wrapp{
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.cheackbox{
+  display: flex;
+  gap:10px
+}
+.sorting{
+  display: flex;
+  gap:10px;
+}
+.list{
+  display: flex;
+  list-style-type: none;
+  gap:10px;
+  margin:20px auto;
+  overflow: hidden;
+height: 350px;
+
+}
+.li{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.indexA{
+}

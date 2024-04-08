@@ -1,0 +1,38 @@
+.section  {
+  display: flex;
+  align-items:center;
+  flex-direction:column;
+  margin:auto;
+  }
+  
+  .form {
+    width: 952px;
+    display: flex;
+    gap:7px
+  }
+  .subtitle{
+    width:150px;
+    font-weight: 400;
+  }
+  .ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap:16px;
+    padding:0
+  }
+  .li{
+  display:grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  }
+.container {
+display: flex;
+  align-items: center;     
+  /* justify-content: center; */
+  gap:15px
+}
+
+  input{
+    max-width:204px
+  }
