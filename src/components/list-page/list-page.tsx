@@ -340,30 +340,3 @@ const isTail = (index: number):string => {
     </SolutionLayout>
   );
 };
-
-// const isHead = (index: number) => {
-//     if (listArr.length === 1 && addNodeToTailOperation) {
-//         return '';
-//     } else if (index === 0 && !addNodeToHeadOperation && !addNodeByIndexOperation) {
-//         return 'head';
-//     } else if (index === 0 && addNodeByIndexOperation && inputValueIndex !== 0) {
-//         return 'head';
-//     } else {
-//         return '';
-//     }
-// };
-
-// const isTail = (index: number) => {
-//     if (listArr.length === 1 && removeNodeFromHeadOperation) {
-//         return '';
-//     } else if (index === listArr.length - 1 && !removeNodeFromTailOperation && !removeNodeByIndexOperation) {
-//         return 'tail';
-//     } else {
-//         return '';
-//     }
-// };
-// if(listArr.length <= Number(values.inputIndex)
-//     && Number(values.inputIndex) >= 0
-//     && list.getSize() > 6
-//     && list.getSize() >= Number(values.inputIndex)
-// ){
